@@ -21,9 +21,11 @@ for data desciption, there are three files:
 To propose the solution, I used `KMeans` clusters by clustering users into 3 groups, and using the classification results to recommend/predict user's next three possible challenges.
 
 `Input`: train.csv and challenge.csv
+
 `Process`: KMeans cluster
+
 `Output`: a csv file corresponding with user id and their next three challenge prediction results
 
 
 ## To Dos
-- [] Change different ways to do the prediction. e.g. consine similarity
+- [ ] Change different ways to do the prediction. e.g. consine similarity
