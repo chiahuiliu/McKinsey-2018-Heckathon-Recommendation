@@ -13,30 +13,7 @@ The client has provided you with history of last 10 challenges the user has solv
 
 ## Data Description
 for data desciption, there are three files:
- 1. ```train.csv```:  It contains the set of 13 challenges that were attempted by the same user in a sequence.
-| Variables | Definition |
-| --- | --- |
-| user_sequence | Unique ID for the sequence |
-| user_id | User ID |
-| challenge_sequence | Challenge sequence number (1-13) |
-| challenge | Challenge ID |
-    The variables and its corresponding definitions are listed as follows:
-    user_sequence: Unique ID for the sequence
-    user_id: User ID
-    challenge_sequence: Challenge sequence number (1-13)
-    challenge: Challenge ID
-    
- 2. ```challenge_data.csv```: Contains attributes related to each challenge
-    Variables & its corresponding explanations
-    challenge_ID: Challenge ID
-    programming_language: Programming language for the challenge
-    challenge_series_ID: Series for the given challenge
-    total_submissions: Total submissions by all users
-    publish_date: Publishing date for the challenge
-    author_ID: Author ID
-    author_gender: Author gender
-    author_org_ID: Organization ID for author
-    category_id: Type of challenge
-    
- 3. ```test.csv```: Contains the first 10 challenges solved by a new user set (not in train) in the test set. We need to predict the next 3 sequence of challenges for these users.
-    Var
+ 1. `train.csv`:  It contains the set of 13 challenges that were attempted by the same user in a sequence.
+ 2. `challenge_data.csv`: Contains attributes related to each challenge
+ 3. `test.csv`: Contains the first 10 challenges solved by a new user set (not in train) in the test set. We need to predict 
+ 
