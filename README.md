@@ -17,3 +17,13 @@ for data desciption, there are three files:
  2. `challenge_data.csv`: Contains attributes related to each challenge
  3. `test.csv`: Contains the first 10 challenges solved by a new user set (not in train) in the test set. We need to predict 
  
+## Work Flow
+To propose the solution, I used `KMeans` clusters by clustering users into 3 groups, and using the classification results to recommend/predict user's next three possible challenges.
+
+`Input`: train.csv and challenge.csv
+`Process`: KMeans cluster
+`Output`: a csv file corresponding with user id and their next three challenge prediction results
+
+
+## To Dos
+- [] Change different ways to do the prediction. e.g. consine similarity
